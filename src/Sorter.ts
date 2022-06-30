@@ -1,8 +1,4 @@
-export interface Sortable {
-  length: number;
-  compare(leftIndex: number): boolean;
-  swap(leftIndex: number): void;
-}
+
 export abstract class Sorter {
   abstract compare(leftIndex: number): boolean
   abstract swap(leftIndex:number): void
